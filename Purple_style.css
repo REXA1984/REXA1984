@@ -1,3 +1,5 @@
+/* Purple_style.css */
+
 /* 목차 박스 */
 .toc-box {
   background-color: #f3e5f5 !important;
@@ -131,28 +133,28 @@
 
 /* 팁 박스 */
 .tip-box {
-  background-color: #fce4ec !important;
+  background-color: #e8f4ff !important;
   padding: 15px !important;
-  border-left: 5px solid #8e24aa !important;
+  border-left: 5px solid #1e3a8a !important;
   margin: 20px 0 !important;
   border-radius: 5px !important;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
 }
 .tip-box strong {
-  color: #8e24aa !important;
+  color: #d32f2f !important;
 }
 
 /* 경고 박스 */
 .warning-box {
-  background-color: #fce4ec !important;
+  background-color: #fff0f0 !important;
   padding: 15px !important;
-  border-left: 5px solid #8e24aa !important;
+  border-left: 5px solid #dc2626 !important;
   margin: 20px 0 !important;
   border-radius: 5px !important;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
 }
 .warning-box strong {
-  color: #8e24aa !important;
+  color: #d32f2f !important;
 }
 
 /* Q&A 박스 */
