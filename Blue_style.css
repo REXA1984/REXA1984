@@ -4,7 +4,7 @@
   border-radius: 5px !important;
   border: 1px solid #ddd !important;
   max-width: 800px !important; /* 최대 너비 설정 (더 넓게) */
-  width: 80% !important; /* 전체 화면의 80% 차지 */
+  width: 100% !important; /* 전체 화면의 80% 차지 */
   overflow: hidden !important;
   display: block !important;
   margin: 0 auto !important; /* 가운데 정렬 */
