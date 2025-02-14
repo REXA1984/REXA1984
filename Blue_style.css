@@ -1,32 +1,38 @@
 /* 목차 박스 */
 .toc-box {
-  background-color: #f5f8ff !important;
-  border: 2px solid #006dd7 !important;
-  border-radius: 8px !important;
-  padding: 15px !important;
-  margin: 20px 0 !important;
+  background-color: #f8f9fa !important;
+  padding: 20px !important;
+  border-radius: 5px !important;
+  border: 1px solid #ddd !important;
+  max-width: 100% !important;
+  width: fit-content !important;
+  overflow: hidden !important;
+  display: block !important;
 }
-.toc-box h2 {
-  font-size: 18px !important;
-  font-weight: bold !important;
-  color: #006dd7 !important;
-}
+
 .toc-box ul {
-  list-style: none !important;
-  padding: 0 !important;
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
 }
+
 .toc-box li {
-  margin: 10px 0 !important;
+  padding: 5px 0 !important;
+  border-bottom: 1px dashed #ccc !important;
 }
+
+.toc-box li:last-child {
+  border-bottom: none !important;
+}
+
 .toc-box a {
-  color: #333 !important;
   text-decoration: none !important;
-  font-size: 18px !important;
+  color: #007bff !important;
   font-weight: bold !important;
-  border-bottom: 2px solid #006dd7 !important;
-  padding-bottom: 3px !important;
-  display: inline-block !important;
+  display: block !important;
+  padding: 5px 10px !important;
 }
+
 
 /* 블로그 제목 */
 .blog-title {
