@@ -1,13 +1,13 @@
-/* 목차 박스 */
 .toc-box {
   background-color: #f8f9fa !important;
   padding: 20px !important;
   border-radius: 5px !important;
   border: 1px solid #ddd !important;
-  max-width: 100% !important;
-  width: fit-content !important;
+  max-width: 800px !important; /* 최대 너비 설정 (더 넓게) */
+  width: 80% !important; /* 전체 화면의 80% 차지 */
   overflow: hidden !important;
   display: block !important;
+  margin: 0 auto !important; /* 가운데 정렬 */
 }
 
 .toc-box ul {
@@ -17,7 +17,7 @@
 }
 
 .toc-box li {
-  padding: 5px 0 !important;
+  padding: 10px 0 !important; /* 항목 간격 늘리기 */
   border-bottom: 1px dashed #ccc !important;
 }
 
@@ -30,7 +30,7 @@
   color: #007bff !important;
   font-weight: bold !important;
   display: block !important;
-  padding: 5px 10px !important;
+  padding: 8px 15px !important; /* 클릭 영역 확대 */
 }
 
 
