@@ -1,3 +1,9 @@
+p { 
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
 /* 목차 박스 */
 .toc-box {
   background-color: #F5EDE1 !important;
