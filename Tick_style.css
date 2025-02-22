@@ -14,7 +14,7 @@ body {
 }
 
 /* 중앙 정렬 컨테이너 (콘텐츠 영역) */
-.container {
+.my-container {
   max-width: 800px;
   margin: 0 auto;
   background-color: #fff;
@@ -25,7 +25,7 @@ body {
 }
 
 /* 블로그 제목 (경계선 있는 하단 라인) */
-.blog-title {
+.my-blog-title {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
@@ -36,42 +36,42 @@ body {
 }
 
 /* 본문 텍스트 */
-.body-text {
+.my-body-text {
   font-size: 1rem;
   margin-bottom: 20px;
 }
 
-/* 목차 박스 - 경계선과 배경 추가 */
-.toc-box {
+/* 목차 박스 */
+.my-toc-box {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 5px;
 }
-.toc-box h2 {
+.my-toc-box h2 {
   font-size: 1.25rem;
   margin-bottom: 15px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 8px;
 }
-.toc-box ul {
+.my-toc-box ul {
   list-style: none;
   margin-left: 15px;
 }
-.toc-box li {
+.my-toc-box li {
   margin-bottom: 10px;
 }
-.toc-box a {
+.my-toc-box a {
   color: #1E90FF;
   text-decoration: none;
 }
-.toc-box a:hover {
+.my-toc-box a:hover {
   text-decoration: underline;
 }
 
-/* 섹션 제목 - 구분감 있는 박스 스타일 */
-.section-heading {
+/* 섹션 제목 */
+.my-section-heading {
   font-size: 1.5rem;
   font-weight: bold;
   color: #1E90FF;
@@ -83,45 +83,45 @@ body {
 }
 
 /* 데이터 테이블 */
-.data-table {
+.my-data-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 30px;
 }
-.data-table th, 
-.data-table td {
+.my-data-table th, 
+.my-data-table td {
   padding: 12px;
   border: 1px solid #ddd;
   text-align: left;
 }
-.data-table th {
+.my-data-table th {
   background-color: #f1f1f1;
 }
 
-/* 구분선 (경계선 스타일) */
-.hr-divider {
+/* 구분선 */
+.my-divider {
   border: none;
   border-top: 2px dashed #ddd;
   margin: 40px 0;
 }
 
 /* 체크리스트 박스 */
-.checklist {
+.my-checklist {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
-.checklist p {
+.my-checklist p {
   margin-bottom: 12px;
 }
-.checklist span {
+.my-checklist span {
   font-weight: bold;
 }
 
 /* 인용구 */
-.custom-blockquote {
+.my-custom-blockquote {
   border-left: 5px solid #FF8C00;
   background-color: #f9f9f9;
   padding: 20px;
@@ -130,7 +130,7 @@ body {
 }
 
 /* 팁 박스 */
-.tip-box {
+.my-tip-box {
   border: 1px solid #ddd;
   background-color: #e7f3fe;
   padding: 20px;
@@ -140,7 +140,7 @@ body {
 }
 
 /* 경고 박스 */
-.warning-box {
+.my-warning-box {
   border: 1px solid #ddd;
   background-color: #fff3f3;
   padding: 20px;
@@ -150,24 +150,25 @@ body {
 }
 
 /* Q&A 박스 */
-.qa-box {
+.my-qa-box {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 5px;
 }
-.qa-box .qa-question {
+.my-qa-box .qa-question {
   font-weight: bold;
   margin-bottom: 10px;
 }
-.qa-box .qa-answer {
+.my-qa-box .qa-answer {
   margin-left: 10px;
 }
 
 /* hr 태그의 커스텀 스타일 (구분선) */
-hr.divider {
+hr.my-divider {
   border: none;
   border-top: 2px dashed #ddd;
   margin: 40px 0;
 }
+
