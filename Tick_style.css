@@ -14,6 +14,18 @@ p {
   color: #333333;
 }
 /* 목차 박스 */
+.toc-box a {
+  color: #3498db;
+  text-decoration: none !important;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.toc-box a:hover {
+  text-decoration: underline !important;
+  color: #9b59b6;
+}
+
 .toc-box {
   background: #fff;
   border: 1px solid #ddd;
