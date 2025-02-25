@@ -1,0 +1,205 @@
+/* 기본 스타일 */
+body {
+  font-family: "Merriweather", serif;
+  background: #f7f7f7;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333333;
+}
+
+/* 목차 박스 */
+.toc-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.toc-box h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  letter-spacing: 0.3px;
+}
+
+.toc-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-box li {
+  margin: 10px 0;
+}
+
+.toc-box a {
+  color: #e74c3c; /* 스포츠를 상징하는 강렬한 빨강 */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.toc-box a:hover {
+  text-decoration: underline;
+  color: #2980b9; /* 신뢰감과 행운을 암시하는 파랑 */
+}
+
+/* 블로그 제목 */
+.blog-title {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(45deg, #e74c3c, #2980b9);
+  padding: 25px 0;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #e74c3c;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 섹션 제목 (h2.section-heading) */
+.section-heading {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #e74c3c, #2980b9);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 35px 0 25px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* 본문 텍스트 */
+.body-text {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+/* 데이터 테이블 */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.data-table thead {
+  background: linear-gradient(90deg, #2980b9, #e74c3c); /* 색상 순서 반전 */
+  color: #fff;
+}
+
+.data-table th,
+.data-table td {
+  padding: 14px;
+  border: 1px solid #e1e1e1;
+  text-align: left;
+}
+
+/* 체크리스트 */
+.checklist {
+  font-size: 18px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 4px solid #e74c3c;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.checklist p {
+  margin: 6px 0;
+}
+
+.checklist span {
+  font-weight: bold;
+  color: #2980b9;
+}
+
+/* 인용구 */
+.custom-blockquote {
+  font-size: 18px;
+  color: #555;
+  padding: 18px;
+  border-left: 4px solid #e74c3c;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-style: italic;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 팁 박스 (파란색 계열) */
+.tip-box {
+  background-color: #e8f4fd; /* 연한 파랑 배경 */
+  padding: 15px;
+  border-left: 4px solid #2980b9; /* 파란색 테두리 */
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.tip-box strong {
+  color: #2980b9; /* 파란색 텍스트 */
+}
+
+/* 경고 박스 */
+.warning-box {
+  background-color: #fff0f0;
+  padding: 15px;
+  border-left: 4px solid #c0392b;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.warning-box strong {
+  color: #c0392b;
+}
+
+/* Q&A 박스 */
+.qa-box {
+  background: #fff;
+  padding: 15px;
+  border-left: 4px solid #e74c3c;
+  margin: 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.qa-box .qa-question {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.qa-box .qa-answer {
+  color: #555;
+}
+
+/* 링크 스타일 */
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
